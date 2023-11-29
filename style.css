@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo-img{
+    height: 120px;
+}
+.logo{
+    width: 150px;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.571),rgba(0, 0, 0, 0.571)),url(img/arkaplan.jpg);
+    height: 100vh;
+    
+}
+.icerik h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.inp-email:focus .deneme{
+    background-color: transparent !important;
+}
+.input-deneme{
+    border: 1px solid gray;
+    height: 58px;
+    width: 100%;
+    background: transparent;
+    border-radius: 0.25rem;
+}
+.label-deneme{
+    left: 10px;
+    top: 15px;
+    transition: .2s;
+}
+.label-active{
+    top: 5px;
+    font-size: 13px;
+}
+.drop-hover:hover{
+    background-color: grey !important;
+}
+.cizgi{
+    width: 100%;
+    border: 4px solid grey;
+}
+section h2{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.accordion-open{
+    transition: .5s;
+    height: 0;
+    
+}
+.carpi{
+    transition: .6s;
+    transform: rotate(45deg);
+}
+.accordion-active{
+    height: 200px;
+    padding: 20px;
+}
+
+
+@media (max-width:960px){
+    .altalta{
+        display: grid;
+        flex-direction: column;
+        margin: 20px;
+       
+    }
+}
+
+@media (max-width:460px){
+    .navaltalta{
+        display: grid;
+        flex-direction: column;
+        margin: 20px;
+        
+       
+    }
+}
+ @media screen and (max-width: 600px){
+.ekran {
+    margin: 20px;
+    width: inherit;
+    display: grid;
+    flex-direction: column;
+    
+}
+} 
+
+ .yenidiv{
+    margin-top: 175px;
+    padding-bottom: 100px;
+ }   
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.duzeltme{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.zor{
+    height:58px;
+    width: 170px;
+    border: none;
+    background: rgb(229, 9, 20);
+    font-size: x-large;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    padding: 10px;
+}  
+ 
+.zor:hover{
+    background-color: rgb(138, 37, 37);
+}
+ 
+
+
